@@ -11,3 +11,11 @@ for i in range(len(sayilar)):
 
 
 print("Küçükten Büyüğe Sıralı Dizi:", sayilar)
+
+for i in range(len(sayilar)):
+    for j in range(i + 1, len(sayilar)):
+        if sayilar[i] < sayilar[j]:
+            sayilar[i], sayilar[j] = sayilar[j], sayilar[i]
+
+
+print("Büyükten Küçüğe Sıralı Dizi:", sayilar)
