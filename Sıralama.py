@@ -19,3 +19,5 @@ for i in range(len(sayilar)):
 
 
 print("Büyükten Küçüğe Sıralı Dizi:", sayilar)
+
+print("merge işlemi için burayı koyuyorum")
